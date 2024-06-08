@@ -1,0 +1,180 @@
+
+/* 調整導航條的整體樣式 */
+.navbar {
+    background-color: transparent; /* 移除背景色 */
+    border: none; /* 移除邊框 */
+}
+
+/* 調整導航品牌樣式 */
+.navbar-brand {
+    font-size: 24px; /* 設定字體大小 */
+    color: black; /* 設定字體顏色 */
+}
+
+/* 調整導航項目樣式 */
+.nav-link {
+    font-size: 18px; /* 設定字體大小 */
+    color: rgb(0, 0, 0); /* 設定字體顏色 */
+    margin-right: 25px; /* 增加右側外邊距 */
+	font-weight: bold; /* 設置文字為粗體 */
+	text-decoration: none;
+}
+
+/* 導航項目的懸停效果 */
+.nav-link:hover {
+    color: rgb(0, 0, 0); /* 懸停時的顏色變化 */
+}
+
+/* 對齊導航項目 */
+.navbar-nav {
+    align-items: left; /* 調整對齊方式 */
+}
+/* 使導航欄項目向右對齊 */
+.navbar-collapse {
+    justify-content: center; /* 將項目居中 */
+}
+
+/* 使 logo 靠右 */
+.navbar-brand {
+    margin-left: 15%; /* 將 logo 推向右邊 */
+}
+.navbar-nav {
+    margin-right: 25%; /* 將導航項目向右偏移 */
+}
+.d-flex {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	font-size:24px;
+	font-weight: bold;
+}
+.pe-3 {
+	position: absolute;
+    top: 0;
+    left: 0;
+    filter: invert(100%) opacity(20%) saturate(7491%) hue-rotate(356deg) brightness(102%) contrast(108%) grayscale(0.8);
+}
+.ps-3 {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    filter: invert(100%) opacity(20%) saturate(7491%) hue-rotate(356deg) brightness(102%) contrast(108%) grayscale(0.8);
+}
+.quote {
+	position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.quote-container {
+    position: relative;
+    display: inline-block;
+    padding: 40px 20px; /* 確保有足夠的內邊距 */
+	/* 可視化容器 */
+    /* border: 1px solid #ccc;  */
+}
+
+.quote image {
+    margin: 5px 0;
+}
+
+.quote p {
+    margin: 10px 0;
+}
+
+.container .row {
+	margin-top: 20px; /* 調整間距，使row文字對齊在quote的下方 */
+}
+.experience-item {
+    text-align: center; /* 確保文字在每個col-md-6中居中對齊 */
+}
+
+.tags1 {
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+.tags1 p {
+	border-radius: 18px;
+    background-color: #dddddd;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+.button .u{
+	justify-content: center; /* 水平居中 */
+    list-style-type: none;
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+.button .u .l {
+	color:#000000;
+	display: flex;           /* Enables Flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    text-align: center;      /* Ensures text is centered if it wraps */
+	width:30px;
+	height:30px;
+	border: 1px solid #ffffff;
+	margin: 0 10px;
+	font-size: 24px;
+	
+}
+.button .u .l:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+.b1{
+	background-color: #000;
+    color: #FFFFFF;
+	width: 274px;
+    height: 72px;
+    border-radius: 8px;
+    padding: 3px 24px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.b2{
+	background-color: #ffffff;
+    color: #000000;
+	width: 274px;
+    height: 72px;
+    border-radius: 8px;
+    padding: 3px 24px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+	border: none;
+}
+.b3{
+	background-color: #ffffff;
+    color: #000000;
+	width: 274px;
+    height: 72px;
+    border-radius: 8px;
+    padding: 3px 24px;
+    margin-bottom: 24px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+	border: none;
+}
+footer {
+	background-size: cover; /* 覆蓋整個區塊且保持比例 */
+    background-position: center; /* 確保圖片在區塊中心 */
+	background-repeat: no-repeat;
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-lg.png?raw=true');
+}
