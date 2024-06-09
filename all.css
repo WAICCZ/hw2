@@ -27,7 +27,6 @@
     color: rgb(0, 0, 0); /* 懸停時的顏色變化 */
     border-bottom: 1px solid #000000;
 }
-
 /* 對齊導航項目 */
 .navbar-nav {
     align-items: left; /* 調整對齊方式 */
