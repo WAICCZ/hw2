@@ -18,11 +18,14 @@
     margin-right: 25px; /* 增加右側外邊距 */
 	font-weight: bold; /* 設置文字為粗體 */
 	text-decoration: none;
+    cursor: pointer; /* 让鼠标在悬停时显示为指针，表明可点击 */
+    user-select: none; /* 防止文本被选择 */
 }
 
 /* 導航項目的懸停效果 */
-.nav-link:hover {
+.nav-link:hover{
     color: rgb(0, 0, 0); /* 懸停時的顏色變化 */
+    border-bottom: 1px solid #000000;
 }
 
 /* 對齊導航項目 */
